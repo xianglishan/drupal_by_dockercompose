@@ -1,4 +1,4 @@
-FROM drupal:latest
+FROM drupal:10.0.2-php8.2-apache-bullseye
 
 # Drushインストール
 RUN composer global require drush/drush \

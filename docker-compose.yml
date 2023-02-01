@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   mysql:
-    image: mariadb
+    image: mariadb:10.10.2-jammy
     command: mysqld --character-set-server=utf8 --collation-server=utf8_unicode_ci
     volumes:
       - data:/var/lib/mysql
